@@ -1,3 +1,6 @@
+btstrp
+======
+
 mini weekend project to learn more about Bootstrap
 
 based the typography on the back cover of John Coltrane's 1957 Blue Train album 
