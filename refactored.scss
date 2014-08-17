@@ -1,0 +1,180 @@
+$serif-font-stack: Clarendon, Georgia, serif;
+$sans-font-stack: Futura, 'Trebuchet MS', Arial, sans-serif;
+
+html,
+body {
+	height: 100%;
+	color: #111;
+}
+ul {
+	padding: 0;
+	li {
+		list-style-type: none;
+	}
+}
+
+/* =======================
+		Text styles
+   ======================= */
+
+/* Font families
+================= */
+h1, .navbar-brand {
+	font-family: $serif-font-stack;
+}
+
+.nav,
+.lead,
+h2,
+h4,
+p,
+footer ul {
+	font-family: $sans-font-stack;
+}
+
+/* Font sizes
+============== */
+.glyphicon {
+	font-size: 1.25em;
+}
+
+.navbar-brand {
+	font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 1.1em;
+}
+
+#intro h1 {
+	font-size: 4em;
+}
+
+#descriptions h2 {
+	font-size: 1.714em;
+}
+
+#descriptions p {
+	font-size: 1.285em;
+}
+
+/* Text transform
+================== */
+.nav,
+#intro h1,
+h2,
+h4 {
+	text-transform: uppercase;
+}
+
+/* Font smoothing
+================== */
+.anti {
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Letter spacing
+================= */
+.nav,
+#intro h1,
+.lead,
+h2,
+h4,
+p,
+footer ul {
+	letter-spacing: -.03em;
+}
+.navbar-brand {
+	letter-spacing: .02em;
+}
+
+/* Line height
+=============== */
+.lead {
+	line-height: 1.56;
+}
+
+/* Font weight
+=============== */
+h1,
+h2,
+h4,
+.navbar-brand {
+	font-weight: 600;
+}
+
+/* =======================
+		Section styles
+   ======================= */
+
+/* Header & Navigation
+======================= */
+.glyphicon {
+	position: absolute;
+	top: 16px;
+	color: #f0bc50;
+	padding-left: .5em;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+	color: #111;
+}
+.navbar>.container-fluid .navbar-brand {
+	margin-left: 16px;
+}
+.navbar {
+	margin-bottom: 0;
+}
+
+/* Intro/'Hero' Section
+======================== */
+#intro {
+	height: 60%;
+	background: darkslateblue url('truck.jpg') no-repeat center;
+	background-size: cover;
+	text-align: center;
+	h1 {
+		position: relative;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		color: #eee;	
+		margin: 0;
+	}
+}
+
+/* Lead Paragraph
+================== */
+.lead {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+/* Descriptions in Three Columns
+================================ */
+#descriptions {
+	margin-bottom: 70px;
+}
+
+/* Footer
+========== */
+footer {
+	padding: 30px 0;
+	background: #c5bcb4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
